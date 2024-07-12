@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(170, 201, 228);
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  /* grid-template-rows: 0.3fr 3fr; */
+  grid-template-areas: 'nav nav nav'
+  'main main main';
+  padding: 20px 20px;
+  border: 2px solid rgb(29, 27, 27);
+  border-radius: 18px;
+
+}
+
+/* Navigation */
+
+nav {
+  grid-area: nav;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  /* border: 2px solid rgb(115, 245, 89); */
+  border-radius: 18px;
+  gap: 0.5em;
+
+}
+
+.cont1 {
+  width: 40%;
+  background-color: aqua;
+  height: 100%;
+
+
+
+}
+
+.cont2 {
+  width: 30%;
+  background-color: rgb(255, 105, 255);
+  height: 100%;
+  
+
+}
+
+.cont3 {
+  width: 30%;
+  background-color: rgb(39, 40, 99);
+  height: 100%;
+
+}
+
+main {
+  grid-area: main;
+  background-color: rgb(255, 0, 157);
+  
+}
+

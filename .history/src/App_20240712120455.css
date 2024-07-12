@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(170, 201, 228);
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 0.3fr 3fr;
+  grid-template-areas: 'nav nav nav'
+  'main main main';
+
+
+}
+
+nav {
+  grid-area: nav;
+  background-color: rgb(255, 0, 64);
+  display: flex;
+  justify-content: ;
+}
+
+main {
+  grid-area: main;
+  background-color: blue;
+}
+

@@ -1,0 +1,12 @@
+body {
+  background-color: aliceblue;
+}
+
+.container {
+  background-color: rgb(252, 240, 226);
+  min-height: 100vh;
+  display: flex;
+  
+  
+
+}

@@ -1,0 +1,12 @@
+body {
+  background-color: aliceblue;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 0.3fr 3fr;
+  grid-template-areas: 'nav nav nav'
+  'main n';
+
+}

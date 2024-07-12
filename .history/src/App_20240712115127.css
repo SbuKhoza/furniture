@@ -1,0 +1,9 @@
+body {
+  background-color: aliceblue;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gr
+}
